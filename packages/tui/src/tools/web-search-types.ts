@@ -24,6 +24,7 @@ export const SEARCH_PROVIDER_LABELS = {
 	jina: "Jina",
 	kagi: "Kagi",
 	tavily: "Tavily",
+	ydc: "You.com",
 	firecrawl: "Firecrawl",
 	brave: "Brave",
 	kimi: "Kimi",

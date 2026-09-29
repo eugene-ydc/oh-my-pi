@@ -20,6 +20,7 @@
 - Added Command Code's DeepSeek V4.1 Flash Fast model ([#13666](https://github.com/can1357/oh-my-pi/pull/13666) by [@riicodespretty](https://github.com/riicodespretty))
 - Added Command Code's Claude Sonnet 5.5 model ([#13666](https://github.com/can1357/oh-my-pi/pull/13666) by [@riicodespretty](https://github.com/riicodespretty))
 - Added `trust-forbidden=#true` for optional login `validate` checks, so a key check that answers 403 keeps the pasted key instead of rejecting it ([#13666](https://github.com/can1357/oh-my-pi/pull/13666) by [@riicodespretty](https://github.com/riicodespretty))
+- Added You.com (`ydc`) auth rule: `YDC_API_KEY` env fallback and paste-key `/login` flow, plus the `web/ydc` seed model
 - `hosted-image #false` and `image-model #false` now remove a hosted image flag or image model that a class rule grants ([#13666](https://github.com/can1357/oh-my-pi/pull/13666) by [@riicodespretty](https://github.com/riicodespretty))
 - Added support for Claude Sonnet 5.5 model with image and text inputs
 - Added new compatibility rules for Anthropic Sonnet family enabling mid‑conversation system features and disabling forced tool choice

@@ -1,0 +1,9 @@
+auth "ydc" {
+	name "You.com"
+	env "YDC_API_KEY"
+	login "api-key" {
+		auth-url "https://you.com/platform"
+		instructions "Copy your You.com API key from the You.com platform dashboard."
+		prompt "Paste your You.com API key" placeholder="ydc-sk-..."
+	}
+}

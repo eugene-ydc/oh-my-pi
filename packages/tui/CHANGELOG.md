@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added the `ydc` (You.com) label to `SEARCH_PROVIDER_LABELS`, so `web/ydc` search results and errors render with the right provider name
+
 ## [18.4.3] - 2026-09-28
 
 ### Changed
